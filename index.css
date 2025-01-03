@@ -1,0 +1,94 @@
+body
+{
+    background-color: rgb(18, 85, 162);
+    overflow-x:hidden ;
+    padding: 0px;
+    margin: 0px;
+}
+#display
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: black;
+}
+#left
+{
+    width: 30%;
+    height: 40vh;
+}
+#left img
+{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#main
+{
+    width: 30%;
+    height: 40vh;
+}
+#main img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#right
+{
+    width: 30%;
+    height: 40vh;
+}
+#right img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#Main-Display
+{
+    height: 60vh;
+}
+#boat
+{
+     width: 5%;
+     position: relative;
+     left: 15%;
+}
+
+#boat img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#Anime
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15%;
+    bottom: 200px;
+
+}
+#Anime img 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#OutDisaply h1
+{
+   font-size: 50px;
+   left: 40%;
+   color: red;
+   position: absolute;
+   top: 30%;
+   display: none;
+   /* text-align: center; */
+}
